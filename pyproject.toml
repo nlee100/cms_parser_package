@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "cms-parser"
-version = "1.0.0"
+version = "1.1.0"
 description = "A package for parsing CMS data"
 authors = ["Naomi Lee"]
-license = "MIT License"
+license = "MIT"
 readme = "README.md"
 packages = [{include = "src"}]
 

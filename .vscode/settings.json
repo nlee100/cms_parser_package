@@ -1,4 +1,6 @@
 {
     "python.formatting.provider": "black",
-    "notebook.output.wordWrap": false
+    "notebook.output.wordWrap": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }

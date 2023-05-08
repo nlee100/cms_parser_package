@@ -8,7 +8,7 @@ Requires Python 3.6 or higher. Anaconda recommended.
 
 1. Clone repo. 
 ```bash
-$ git clone [TBD]
+$ git clone https://github.com/nlee100/cms_parser_package.git
 ```
 2. Create and activate a conda virtual environment. Ensure you deactivate any other virtual environment you may have activated (e.g., `base`).
 ```bash
@@ -33,7 +33,7 @@ Run package with the required argument (i.e., webpage link to PDF) and optional 
 (my_env) $ cms_parser "https://www.cms.gov/files/document/2024-advance-notice-pdf.pdf" --start_page 126 --end_page 137
 ```
 
-Adjust default settings determining how PDF is parsed from the given webpage link, and view the parsing details of the PDF. For more information on possible settings, refer to the `camelot` documentation [here](https://camelot-py.readthedocs.io/en/master/user/advanced.html#).
+Adjust default settings determining how PDF is parsed from the given webpage link, and view the parsing details of the PDF per parsed page. For more information on possible settings, refer to the `camelot` documentation [here](https://camelot-py.readthedocs.io/en/master/user/advanced.html#).
 ```py
 from src.cms_parser.parser import CMSParser
 
@@ -46,13 +46,9 @@ my_CMSParser.view_table_lines(tables)
 ```
 
 ## Support
-Feel free to fork! If you find a bug or have a feature suggestions, please submit a new issue under the [Issues](TBD).
+Feel free to fork! If you find a bug or have a feature suggestions, please submit a new issue under the [Issues](https://github.com/nlee100/cms_parser_package/issues).
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 cms_parser is available under the MIT License.
-
-
-
-
