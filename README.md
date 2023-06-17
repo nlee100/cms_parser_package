@@ -4,7 +4,7 @@
 
 ## Installation
 
-Requires Python 3.6 or higher. Anaconda recommended.
+Requires Python 3.8 or higher. Anaconda recommended.
 
 1. Clone repo. 
 ```bash
